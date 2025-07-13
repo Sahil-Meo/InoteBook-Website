@@ -62,7 +62,7 @@ const SignupCard = () => {
     const { username, email, password } = formData;
     const res = await createUserWithFetch({ username, email, password });
 
-    if (res?.status===200) {
+    if (!res.error) {
       toast.success('Account created successfully!');
       sessionStorage.setItem('token', res.token)
       setAuth_Token(res.token);

@@ -42,9 +42,10 @@ export const createUserWithFetch = async (data) => {
                }
           )
           const userData = await res.json();
+          // console.log("User created successfully", userData);
           return userData;
      } catch (error) {
-          console.log("Errro while sending request", error);
+          console.log("Error while sending request", error);
      }
 }
 

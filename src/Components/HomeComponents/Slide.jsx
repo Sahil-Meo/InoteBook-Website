@@ -4,13 +4,38 @@ const AutoSlidingCarousel = () => {
   const imageURL = "https://images.stockcake.com/public/6/0/8/608e4426-54cc-4519-861c-e469b4b4df3a_large/focused-office-worker-stockcake.jpg";
 
   const cards = [
-    { id: 1, title: "Card 1", desc: "This is card one.", image: imageURL },
-    { id: 2, title: "Card 2", desc: "This is card two.", image: imageURL },
-    { id: 3, title: "Card 3", desc: "This is card three.", image: imageURL },
-    { id: 4, title: "Card 4", desc: "This is card four.", image: imageURL },
-    { id: 5, title: "Card 5", desc: "This is card five.", image: imageURL },
-    { id: 6, title: "Card 6", desc: "This is card six.", image: imageURL },
+    {
+      title: "Accounting Tasks",
+      description: "Create a system to keep your books, receipts, and invoices organized.",
+      icon: "https://www.notion.so/images/page-cover/accounting.png",
+      type: "List"
+    },
+    {
+      title: "Business Travel Packing",
+      description: "Never forget your laptop charger, lucky shoes, or passport again.",
+      icon: "https://www.notion.so/images/page-cover/travel.png",
+      type: "List"
+    },
+    {
+      title: "Client Management",
+      description: "Organize your work with clients from the smallest to largest details.",
+      icon: "https://www.notion.so/images/page-cover/client-management.png",
+      type: "List"
+    },
+    {
+      title: "Deep Work",
+      description: "Practice prioritizing focus and eliminating distraction with this template.",
+      icon: "https://www.notion.so/images/page-cover/deep-work.png",
+      type: "List"
+    },
+    {
+      title: "Meeting Agenda",
+      description: "Waste less time in meetings, ensuring they're efficient and action-oriented.",
+      icon: "https://www.notion.so/images/page-cover/meeting.png",
+      type: "List"
+    }
   ];
+
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const totalCards = cards.length;
@@ -43,7 +68,7 @@ const AutoSlidingCarousel = () => {
             <div key={index} className="min-w-1/3 px-4 flex-shrink-0">
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden flex flex-col h-full">
                 <img
-                  src={card.image}
+                  src={card.icon}
                   alt={card.title}
                   className="w-full h-48 object-cover"
                 />
