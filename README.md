@@ -1,7 +1,7 @@
 # Priview of this site:
 
 ## First Interface
-<img width="1600" height="2010" alt="screencapture-localhost-5173-2025-07-13-17_13_27" src="https://github.com/user-attachments/assets/52454f07-8436-42ab-8795-a97110b5d9aa" />
+<img width="1600" height="2010" alt="screencapture-localhost-5173-2025-07-13-22_24_57" src="https://github.com/user-attachments/assets/03710bb9-f7fe-4c7f-9571-fd508125f507" />
 
 ## after creating Account
 <img width="1600" height="773" alt="screencapture-localhost-5173-sidebar-analyze-table-2025-07-13-20_58_17" src="https://github.com/user-attachments/assets/e314a358-3084-4780-9b22-01cf5e409112" />
